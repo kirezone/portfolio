@@ -35,7 +35,7 @@ h1 {
 	justify-content: center;
 	display: inline-flex;
 }
-	h2 {
+h2 {
 		font-size: 1.5em;
 	   display: inline-flex;
 	   justify-content: center;
@@ -176,4 +176,14 @@ div .container {
 
 div .containertext {
 	display: block;
+}
+
+ul .strengths {
+	list-style-type: disc;
+	display: list-item;
+}
+
+li .strengths {
+	display: flex;
+	flex-direction: column;
 }
